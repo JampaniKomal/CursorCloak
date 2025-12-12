@@ -72,3 +72,8 @@ We welcome contributions to CursorCloak. Please refer to [CONTRIBUTING.md](docs/
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Future Roadmap
+- [ ] **Multi-Monitor Support:** Implement per-screen cursor hiding settings.
+- [ ] **Custom Hotkeys:** Add a UI for remapping the global keybindings.
+- [ ] **Store Deployment:** Package as MSIX for distribution on the Microsoft Store.
