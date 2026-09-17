@@ -17,7 +17,7 @@
     <AssemblyProduct>CursorCloak</AssemblyProduct>
     <AssemblyVersion>2.0.1.0</AssemblyVersion>
     <FileVersion>2.0.1.0</FileVersion>
-    <Copyright>© 2025 CursorCloak Project. All rights reserved.</Copyright>
+    <Copyright>© 2025 Jampani Komal. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <!-- Self-contained deployment settings (can be overridden) -->

@@ -38,13 +38,13 @@ Windows SmartScreen is a security feature that helps protect your PC by checking
 
 ## Why CursorCloak is Safe
 
-✅ **Open Source**: Full source code available on [GitHub](https://github.com/JAMPANIKOMAL/CursorCloak)  
-✅ **No Network Access**: Application works completely offline  
-✅ **No Data Collection**: No telemetry, analytics, or personal data collection  
-✅ **Minimal Permissions**: Only requires administrator access for cursor manipulation  
-✅ **Transparent**: All build scripts and processes are publicly available  
-✅ **Professional Metadata**: Enhanced version information and publisher details for Windows  
-✅ **MIT Licensed**: Open source license ensuring transparency and user rights  
+- **Open Source**: Full source code available on [GitHub](https://github.com/JAMPANIKOMAL/CursorCloak)
+- **No Network Access**: Application works completely offline
+- **No Data Collection**: No telemetry, analytics, or personal data collection
+- **Minimal Permissions**: Only requires administrator access for cursor manipulation
+- **Transparent**: All build scripts and processes are publicly available
+- **Professional Metadata**: Enhanced version information and publisher details for Windows
+- **MIT Licensed**: Open source license ensuring transparency and user rights
 
 ## SmartScreen Mitigation Improvements
 

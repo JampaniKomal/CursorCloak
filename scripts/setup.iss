@@ -13,7 +13,7 @@ AppPublisherURL=https://github.com/JAMPANIKOMAL/CursorCloak
 AppSupportURL=https://github.com/JAMPANIKOMAL/CursorCloak/issues
 AppUpdatesURL=https://github.com/JAMPANIKOMAL/CursorCloak/releases
 AppContact=https://github.com/JAMPANIKOMAL/CursorCloak/issues
-AppCopyright=© 2025 CursorCloak Project. All rights reserved.
+AppCopyright=© 2025 Jampani Komal. All rights reserved.
 AppComments=Professional cursor management utility for Windows - Enhanced release
 
 ; Installation directories
@@ -39,7 +39,7 @@ VersionInfoProductName=CursorCloak Professional Edition
 VersionInfoProductVersion=2.0.1.0
 VersionInfoCompany=CursorCloak Open Source Project
 VersionInfoDescription=Professional cursor hide/show utility with global hotkeys
-VersionInfoCopyright=© 2025 CursorCloak Development Team (Open Source)
+VersionInfoCopyright=© 2025 Jampani Komal (Open Source)
 
 ; UI and branding
 LicenseFile=..\LICENSE

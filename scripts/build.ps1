@@ -4,16 +4,14 @@ param(
     [switch]$AllPackages
 )
 
-Write-Host "CursorCloak Build Script v1.0.2" -ForegroundColor Cyan
+Write-Host "CursorCloak Build Script v2.0.1" -ForegroundColor Cyan
 
 function Clear-BuildArtifacts {
     Write-Host "Cleaning build artifacts..." -ForegroundColor Yellow
     
     $cleanPaths = @(
         ".\src\CursorCloak.UI\bin",
-        ".\src\CursorCloak.UI\obj", 
-        ".\src\CursorCloak.Engine\bin",
-        ".\src\CursorCloak.Engine\obj",
+        ".\src\CursorCloak.UI\obj",
         ".\publish",
         ".\Installer",
     ".\releases\CursorCloak-v2.0.1-*.zip"

@@ -38,12 +38,10 @@ CursorCloak is a Windows utility designed to provide system-wide control over mo
 
 ## Architecture
 
-The project follows a clean architecture pattern with a separation of concerns:
+The project follows a clean architecture pattern with a separation of concerns, all within the single **CursorCloak.UI** WPF application:
 
-- **CursorCloak.UI**: The main WPF application handling user interaction and visual presentation.
-  - **Services**: Contains business logic (`CursorEngine`, `HotKeyManager`, `StartupManager`).
-  - **Models**: Defines data structures (`Settings`, `UserConfig`).
-- **CursorCloak.Engine**: A low-level library for Windows API interactions (P/Invoke).
+- **Services**: Contains business logic (`CursorEngine` for low-level Windows API/P-Invoke cursor manipulation, `HotKeyManager`, `GlobalMouseHook`, `StartupManager`, `SettingsManager`, `TrayService`).
+- **Models**: Defines data structures (`Settings`, `UserConfig`).
 
 ## Building from Source
 

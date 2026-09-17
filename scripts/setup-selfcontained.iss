@@ -14,7 +14,7 @@ AppPublisherURL=https://github.com/JAMPANIKOMAL/CursorCloak
 AppSupportURL=https://github.com/JAMPANIKOMAL/CursorCloak/issues
 AppUpdatesURL=https://github.com/JAMPANIKOMAL/CursorCloak/releases
 AppContact=https://github.com/JAMPANIKOMAL/CursorCloak/issues
-AppCopyright=© 2025 CursorCloak Project. All rights reserved.
+AppCopyright=© 2025 Jampani Komal. All rights reserved.
 AppComments=Professional cursor management utility for Windows (Self-contained - No .NET required)
 
 ; Installation directories
@@ -30,7 +30,7 @@ VersionInfoProductName=CursorCloak Professional Edition (Self-Contained)
 VersionInfoProductVersion=2.0.1.0
 VersionInfoCompany=CursorCloak Open Source Project
 VersionInfoDescription=Professional cursor utility with global hotkeys (No .NET required)
-VersionInfoCopyright=© 2025 CursorCloak Development Team (Open Source)
+VersionInfoCopyright=© 2025 Jampani Komal (Open Source)
 
 ; Installer settings
 PrivilegesRequired=admin

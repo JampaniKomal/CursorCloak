@@ -175,8 +175,7 @@ function Test-ProjectStructure {
     Write-Host "Testing project structure..." -ForegroundColor Yellow
     
     $requiredDirs = @(
-        "src\CursorCloak.UI",
-        "src\CursorCloak.Engine"
+        "src\CursorCloak.UI"
     )
     
     $requiredFiles = @(

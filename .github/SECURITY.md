@@ -2,13 +2,12 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Only the latest released version of CursorCloak receives security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.1.x   | :white_check_mark: |
-| 1.0.x   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 2.0.x   | Yes       |
+| < 2.0   | No        |
 
 ## Reporting a Vulnerability
 
@@ -16,7 +15,7 @@ We take the security of CursorCloak seriously. If you believe you have found a s
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, please report them via email to [INSERT EMAIL HERE] or by creating a private security advisory if enabled on the repository.
+Instead, please report them via email to jampanikomal2005@gmail.com or by creating a private security advisory if enabled on the repository.
 
 You should expect to receive a response within 48 hours. If for some reason you do not, please follow up via email to ensure we received your original message.
 

@@ -11,7 +11,7 @@ To ensure cross-platform compatibility and prevent rendering issues in the insta
 **Example of what to avoid:**
 
 ```iss
-FinishedLabel=CursorCloak v1.0.2 has been successfully installed!%n%n🎉 READY TO USE:%n• Launch CursorCloak as administrator
+FinishedLabel=CursorCloak v1.0.2 has been successfully installed!%n%n[ready] READY TO USE:%n* Launch CursorCloak as administrator
 ```
 
 **Correct implementation:**

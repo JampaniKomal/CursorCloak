@@ -14,13 +14,13 @@ function Check-FileContent {
     if (Test-Path $FilePath) {
         $content = Get-Content $FilePath -Raw
         if ($content -match $Pattern) {
-            Write-Host "✅ $Description matches $ExpectedVersion" -ForegroundColor Green
+            Write-Host "[OK] $Description matches $ExpectedVersion" -ForegroundColor Green
         } else {
-            Write-Host "❌ $Description matches MISMATCH in $FilePath" -ForegroundColor Red
+            Write-Host "[MISMATCH] $Description mismatch in $FilePath" -ForegroundColor Red
             $global:ErrorCount++
         }
     } else {
-        Write-Host "⚠️  File not found: $FilePath" -ForegroundColor Yellow
+        Write-Host "[MISSING] File not found: $FilePath" -ForegroundColor Yellow
         $global:ErrorCount++
     }
 }

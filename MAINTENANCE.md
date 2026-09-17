@@ -25,8 +25,20 @@
 3.  **Single Instance**: Enforced via named Mutex `CursorCloak_SingleInstance_Mutex`.
 
 ---
+
+## 2. Release Process
+
+### **Step 1: Update Version Numbers**
+Run `.\scripts\update-version.ps1 -NewVersion "X.Y.Z" -ReleaseType "Release Name"` to update
+version references across the project, including:
+1.  `src/CursorCloak.UI/CursorCloak.UI.csproj` (AssemblyVersion, FileVersion)
+2.  `src/CursorCloak.UI/app.manifest`
+3.  `.github/workflows/build-release.yml` (PROJECT_VERSION)
+4.  `scripts/setup.iss`, `scripts/setup-selfcontained.iss`
 5.  `build.ps1` (File paths)
 6.  `README.md` (Download links)
+
+Then run `.\scripts\verify-version.ps1 -ExpectedVersion "X.Y.Z"` to confirm consistency.
 
 ### **Step 2: Documentation**
 1.  **`CHANGELOG.md`**: Add new entry at top.
@@ -58,6 +70,6 @@
 ---
 
 ## 5. Future Roadmap
-- [ ] Create `TrayService` to decouple tray logic from MainWindow.
-- [ ] Implement `IDisposable` in `CursorEngine` for robust cleanup.
-- [ ] Add Unit Tests for `SettingsManager`.
+- [ ] Add Unit Tests for `SettingsManager` and other Services classes (see `tests/README.md`).
+- [ ] Multi-monitor support (per-screen cursor hiding settings).
+- [ ] Custom hotkey configuration UI.
